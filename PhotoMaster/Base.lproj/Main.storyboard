@@ -34,6 +34,13 @@
                                     <action selector="processButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xan-rf-i7J"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSY-NH-S9e">
+                                <rect key="frame" x="216" y="518" width="90" height="30"/>
+                                <state key="normal" title="アップロード"/>
+                                <connections>
+                                    <action selector="uploadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n6N-FS-NKm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
